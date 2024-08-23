@@ -1,0 +1,7 @@
+local args = {
+    [1] = {
+        ["10024"] = 10
+    }
+}
+
+game:GetService("ReplicatedStorage").Functions.Fuse.FuseRF:InvokeServer(unpack(args))
